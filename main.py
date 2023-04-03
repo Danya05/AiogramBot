@@ -6,7 +6,7 @@ from aiogram import Bot, Dispatcher, executor, types
 
 API_TOKEN = config.API_TOKEN
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.DEBUG)
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
